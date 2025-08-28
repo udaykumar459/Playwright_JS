@@ -1,0 +1,8 @@
+const Person = require('./Class')
+
+let person = new Person("joshvik", "Manikyam")
+
+console.log(person.fullName())
+
+
+console.log(person.bloodGroup)
